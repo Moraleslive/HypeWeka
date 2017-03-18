@@ -5,7 +5,7 @@
 #include <conio.h>
 #include <Windows.h>
 using namespace std;
-//�������� ������ ����� �������� ����
+//ïðîâåðêà ðàáîòû ÷åðåç òåðìèíàë äîìà // поправьте 
 void setMap(char **k, int *h, int *w,int x,int y)
 {
  
@@ -44,6 +44,7 @@ void clearscreen()
     Position.Y = 0;
     SetConsoleCursorPosition(hOut, Position);
 }
+//Маин полностью не работоспособен
 int main(){
     int height, width;
     cout<<"Enter height and width of a map"<<endl;
